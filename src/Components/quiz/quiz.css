@@ -1,0 +1,133 @@
+h1 {
+    color: var(--secondary-color);
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.answer-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start
+}
+
+#answer-header {
+    font-size: 3rem;
+}
+
+.activity-section {
+    padding: 20px;
+    display: none;
+
+}
+
+.answerRow {
+    width: 100%;
+    display: inline-block;
+}
+
+.answerRow a,
+.answerRow p {
+    display: inline;
+    font-size: 1rem;
+}
+
+hr {
+    border: 1px solid #FFC700;
+    width: 100%;
+}
+
+.question-section {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.question-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.question-count {
+    margin-bottom: 2rem;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-weight: bold;
+    border-radius: 20px;
+    border: 4px;
+    border-color: var(--text-color);
+    padding: 10px 40px;
+    margin: 15px;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 4100px) {
+    .question-section {
+        font-size: 4rem;
+    }
+
+    .answer-section {
+        font-size: 3rem;
+    }
+
+    .question-text {
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .question-section {
+        font-size: 48px;
+    }
+
+    .answer-section {
+        font-size: 2rem;
+    }
+
+    .question-text {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .question-section {
+        font-size: 18px;
+    }
+
+    .answer-section {
+        font-size: 18px;
+    }
+
+    .question-text {
+        margin-left: 10px;
+
+    }
+
+    .button-section,
+    .question-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

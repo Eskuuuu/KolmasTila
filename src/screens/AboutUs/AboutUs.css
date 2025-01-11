@@ -1,0 +1,147 @@
+.main {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.aboutUsHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.aboutUsHeader h1 {
+  color: var(--primary-color);
+}
+
+.aboutUsLine {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.aboutUs1,
+.aboutUs2,
+.aboutUs3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 50px;
+  gap: 20px;
+  margin-bottom: 36px;
+  margin-left: 5px;
+}
+
+.aboutUs3 {
+  padding-bottom: 10px;
+}
+
+.aboutUs3 a {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.aboutUs1 h1,
+.aboutUs2 h1,
+.aboutUs3 h1,
+.aboutUs4 h1 {
+  color: var(--primary-color);
+}
+
+
+.aboutUs4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  margin-right: 50px;
+  gap: 10px;
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 4100px) {
+
+  .aboutUsHeader h2 {
+    font-size: 80px;
+  }
+
+  .aboutUsHeader h1 {
+    font-size: 80px;
+  }
+
+  .aboutUs1 h1,
+  .aboutUs2 h1,
+  .aboutUs3 h1 {
+    color: var(--primary-color);
+    font-size: 96px;
+  }
+
+  p {
+    font-size: 34px;
+  }
+
+  .aboutUs4 h1 {
+    font-size: 42px;
+  }
+
+}
+
+@media screen and (max-width: 2000px) {
+
+  .aboutUs1 h1,
+  .aboutUs2 h1,
+  .aboutUs3 h1 {
+    color: var(--primary-color);
+    font-size: 64px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .aboutUsHeader h2 {
+    font-size: 48px;
+  }
+
+  .aboutUsHeader h1 {
+    font-size: 48px;
+  }
+
+  .aboutUs4 h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+  .aboutUs1 h1,
+  .aboutUs2 h1,
+  .aboutUs3 h1 {
+    color: var(--primary-color);
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .aboutUsHeader h2 {
+    font-size: 32px;
+  }
+
+  .aboutUsHeader h1 {
+    font-size: 32px;
+  }
+
+  .aboutUs4 h1 {
+    font-size: 20px;
+  }
+
+}

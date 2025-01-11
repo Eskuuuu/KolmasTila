@@ -1,0 +1,32 @@
+:root {
+  --background-color: #020202;
+  --text-color: #f1f1f1;
+  --primary-color: #A7A9E1;
+  --secondary-color: #FFC700;
+  --box-shadow: 0 10px 10px rgba(100, 100, 100, 0.1);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*
+  border: 2px solid red;
+*/
+}
+
+#root,
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-content-container {
+  position: relative;
+  padding-top: 80px;
+  min-height: 90vh;
+}
